@@ -3,10 +3,269 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hasitha - Full Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <header>
+        <div class="logo">Hasitha<span>.dev</span></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hello!</h1>
+            <h2>I Am Hasitha .</h2>
+            <h3 class="highlight">Full-Stack Developer</h3>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Hire Me</a>
+                <a href="#" class="btn btn-secondary">CV</a>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-box">
+                <img src="https://via.placeholder.com/400x500/333/fff?text=Profile+Photo" alt="Hasitha">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="section-title">
+            <h2>About Me</h2>
+        </div>
+        <div class="about-container">
+            <div class="about-image">
+                <div class="circle-border">
+                    <img src="https://via.placeholder.com/250/333/fff?text=Headshot" alt="Hasitha Headshot">
+                </div>
+            </div>
+            <div class="about-text">
+                <h3>I'm a Passionate Full-Stack Developer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                
+                <div class="info-grid">
+                    <div class="info-item"><strong>Name:</strong> Hasitha</div>
+                    <div class="info-item"><strong>Email:</strong> example@email.com</div>
+                    <div class="info-item"><strong>Age:</strong> 22 Years</div>
+                    <div class="info-item"><strong>From:</strong> Sri Lanka</div>
+                </div>
+                <a href="#" class="btn btn-primary">Download CV</a>
+            </div>
+        </div>
+        
+        <div class="tech-stack">
+            <i class="fab fa-java"></i>
+            <i class="fab fa-python"></i>
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-react"></i>
+            <i class="fab fa-node-js"></i>
+            <i class="fab fa-git-alt"></i>
+        </div>
+    </section>
+
+    <section id="resume" class="resume">
+        <div class="section-title">
+            <h2>My Resume</h2>
+        </div>
+        
+        <div class="timeline">
+            <h3>Education</h3>
+            <div class="timeline-item">
+                <div class="timeline-date">2021 - Present</div>
+                <h4>BSc (Hons) Software Engineering</h4>
+                <p>IJSE - Institute of Software Engineering</p>
+                <p>Brief description of the coursework and achievements.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2018 - 2020</div>
+                <h4>Advanced Level</h4>
+                <p>Richmond College</p>
+            </div>
+
+            <h3>Experience</h3>
+            <div class="timeline-item">
+                <div class="timeline-date">2023 - Present</div>
+                <h4>Freelance Developer</h4>
+                <p>Self Employed</p>
+                <p>Developed full-stack web applications for international clients.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="portfolio">
+        <div class="section-title">
+            <h2>My Work</h2>
+        </div>
+        <h3>Latest Completed Projects</h3>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x150/222/fff?text=E-Tec+Computers" alt="Project 1">
+                <h4>E-Tec Computers</h4>
+                <p>React, Node.js, MongoDB</p>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x150/222/fff?text=Connect+4" alt="Project 2">
+                <h4>Connect 4 Game</h4>
+                <p>Java, JavaFX</p>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x150/222/fff?text=POS+System" alt="Project 3">
+                <h4>Point of Sale System</h4>
+                <p>Spring Boot, Angular</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="assignments" class="assignments">
+        <div class="section-title">
+            <h2>Assignments</h2>
+        </div>
+        <div class="assignments-grid">
+            <div class="assignment-card">
+                <i class="fas fa-file-pdf"></i>
+                <p>Assignment 01</p>
+            </div>
+            <div class="assignment-card">
+                <i class="fas fa-file-pdf"></i>
+                <p>Assignment 02</p>
+            </div>
+            <div class="assignment-card">
+                <i class="fas fa-file-pdf"></i>
+                <p>Assignment 03</p>
+            </div>
+            <div class="assignment-card">
+                <i class="fas fa-file-pdf"></i>
+                <p>Assignment 04</p>
+            </div>
+            <div class="assignment-card">
+                <i class="fas fa-file-pdf"></i>
+                <p>Assignment 05</p>
+            </div>
+            <div class="assignment-card">
+                <i class="fas fa-file-pdf"></i>
+                <p>Assignment 06</p>
+            </div>
+            <div class="assignment-card">
+                <i class="fas fa-file-pdf"></i>
+                <p>Assignment 07</p>
+            </div>
+            <div class="assignment-card">
+                <i class="fas fa-file-pdf"></i>
+                <p>Assignment 08</p>
+            </div>
+            <div class="assignment-card">
+                <i class="fas fa-file-pdf"></i>
+                <p>Assignment 09</p>
+            </div>
+            <div class="assignment-card">
+                <i class="fas fa-file-pdf"></i>
+                <p>Assignment 10</p>
+            </div>
+            <div class="assignment-card">
+                <i class="fas fa-file-pdf"></i>
+                <p>Assignment 11</p>
+            </div>
+            <div class="assignment-card">
+                <i class="fas fa-file-pdf"></i>
+                <p>Assignment 12</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="section-title">
+            <h2>Gallery</h2>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item top-row">
+                <img src="https://via.placeholder.com/500x300/333/fff?text=Gallery+1" alt="Gallery Group 1">
+            </div>
+            <div class="gallery-item top-row">
+                <img src="https://via.placeholder.com/500x300/333/fff?text=Gallery+2" alt="Gallery Group 2">
+            </div>
+            <div class="gallery-item bottom-row">
+                <img src="https://via.placeholder.com/330x250/333/fff?text=Gallery+3" alt="Gallery Group 3">
+            </div>
+            <div class="gallery-item bottom-row">
+                <img src="https://via.placeholder.com/330x250/333/fff?text=Gallery+4" alt="Gallery Group 4">
+            </div>
+            <div class="gallery-item bottom-row">
+                <img src="https://via.placeholder.com/330x250/333/fff?text=Gallery+5" alt="Gallery Group 5">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="section-title">
+            <h2>Contact Me</h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-form">
+                <h3>Get in touch now</h3>
+                <p>Fill the form below to get in touch with me.</p>
+                <form>
+                    <div class="input-group">
+                        <input type="text" placeholder="Your Name">
+                        <input type="email" placeholder="Your Email">
+                    </div>
+                    <textarea rows="5" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <div class="info-block">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Colombo, Sri Lanka</p>
+                    </div>
+                </div>
+                <div class="info-block">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+94 77 123 4567</p>
+                    </div>
+                </div>
+                <div class="info-block">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>hello@hasitha.dev</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo">Hasitha<span>.dev</span></div>
+            <p>&copy; 2026 Hasitha. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
